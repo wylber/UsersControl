@@ -11,4 +11,6 @@ public class User{
 		u.add("email");
 		u.add("id");
 	}	
+
+	public void List(String )
 }

@@ -11,6 +11,15 @@ public class Cadastro1 {
   System.out.println("     3- Remover User          ");
   System.out.println("     4-Exportar Cadastro      ");
   System.out.prinln("      5-Importar Cadastro      ");
+  try {
+      BufferedReader is = new BufferedReader (new InputStreamReader (System.in));
+      inputLine = is.readLine();
+        if (inputLine.length() == 0) return null;
+    } catch (IOException e) {
+      System.out.println("IOException:"+ e);
+    }
+
+    //adicionar case
   
   if (resp > 5){
   System.out.printl("Comando Invalido,Digite Outro Comando ");
@@ -20,7 +29,11 @@ public class Cadastro1 {
     User.nome ;
     User.email ;
     User.id = id++;
-  }
+    }
+
+    if (resp = 2) {
+      User 
+    }
   }
   }
 }
