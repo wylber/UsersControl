@@ -1,3 +1,4 @@
+import java.io.BufferedReader;  
 
 public class Cadastro1 {
  public static void main(String[]args){
@@ -19,7 +20,7 @@ public class Cadastro1 {
       System.out.println("IOException:"+ e);
     }
 
-    //adicionar case
+    //adicionar switch case
   
   if (resp > 5){
   System.out.printl("Comando Invalido,Digite Outro Comando ");
